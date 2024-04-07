@@ -8,6 +8,8 @@
 // In a longer project I like to put these in a separate file
 
 // define a class
+
+function main() {
 const fillers = {
   adventurer: ["Powder", "Luna", "Chia", "Maple", "Brie", "Puff", "Potato", "Rats", "老鼠"],
   murders: ["murders", "killings", "slughters", "carnages", "assasinations", "destructions"],
@@ -58,5 +60,14 @@ function generate() {
 
   /* global box */
   $("#box").text(story);
-  $("#clicker").click(generate);
-}  
+}
+
+/* global clicker */
+$("#clicker").click(generate);
+
+generate();
+
+}
+
+// let's get this party started - uncomment me
+main();
