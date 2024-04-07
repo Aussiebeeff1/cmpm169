@@ -10,6 +10,7 @@
 // define a class
 
 function main() {
+
 const fillers = {
   adventurer: ["Powder", "Luna", "Chia", "Maple", "Brie", "Puff", "Potato", "Rats", "老鼠"],
   murders: ["murders", "killings", "slughters", "carnages", "assasinations", "destructions"],
@@ -42,31 +43,31 @@ Here's an $item for your journey!
 // STUDENTS: You don't need to edit code below this line.
 
 const slotPattern = /\$(\w+)/;
-
-function replacer(match, name) {
-  let options = fillers[name];
-  if (options) {
-    return options[Math.floor(Math.random() * options.length)];
-  } else {
-    return `<UNKNOWN:${name}>`;
+  
+  function replacer(match, name) {
+    let options = fillers[name];
+    if (options) {
+      return options[Math.floor(Math.random() * options.length)];
+    } else {
+      return `<UNKNOWN:${name}>`;
+    }
   }
-}
-
-function generate() {
-  let story = template;
-  while (story.match(slotPattern)) {
-    story = story.replace(slotPattern, replacer);
+  
+  function generate() {
+    let story = template;
+    while (story.match(slotPattern)) {
+      story = story.replace(slotPattern, replacer);
+    }
+  
+    /* global box */
+    $("#box").text(story);
   }
-
-  /* global box */
-  $("#box").text(story);
-}
-
-/* global clicker */
-$("#clicker").click(generate);
-
-generate();
-
+  
+  /* global clicker */
+  $("#clicker").click(generate);
+  
+  generate();
+  
 }
 
 // let's get this party started - uncomment me
