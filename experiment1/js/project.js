@@ -17,7 +17,7 @@ const fillers = {
   item: ["axe", "staff", "rat trap", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "cheese", "potato", "武器"],
   scarce: ["scarce", "little to be known", "unknown", "broken puzzles", "little", "small", "being figured out", "unspecified", "不明"],
   larger: ["big", "huge", "bigger", "larger", "humongous", "vast", "immense", "更大"],
-  message: ["calling", "message", "cheese", "words", "shoutz", "tweets", "Lines",  ".... wait your not trying to leave are you?", "...wait, no! Come back", "語言"],
+  message: ["calling", "message", "cheese", "words", "shoutz", "tweets", "Lines",  ".... wait you're not trying to leave are you?", "...wait, no! Come back", "語言"],
   
 };
 
