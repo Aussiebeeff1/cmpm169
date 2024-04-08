@@ -28,10 +28,7 @@ const template = `$adventurer, heed my $message!
 
 Attention All Rat Residents! 
 
-We regret to inform you of a $disturbing development in our community. 
-Reports have surfaced regarding a $mysterious series of rat $murders that have been taking place in various parts of our $neighborhood. 
-Details are still $scarce, but it appears that these incidents are not isolated and may be connected to a $larger, more sinister plot.
-Remain vigilant and take necessary precautions to ensure their safety and that of their loved ones.
+We regret to inform you of a $disturbing development in our community. Reports have surfaced regarding a $mysterious series of rat $murders that have been taking place in various parts of our $neighborhood. Details are still $scarce, but it appears that these incidents are not isolated and may be connected to a $larger, more sinister plot. Remain vigilant and take necessary precautions to ensure their safety and that of their loved ones.
 
 Here's an $item for your journey!
 `;
